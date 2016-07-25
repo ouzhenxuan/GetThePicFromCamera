@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5F615811D45B7C300348CBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F615801D45B7C300348CBC /* main.m */; };
+		F5F615841D45B7C300348CBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F615831D45B7C300348CBC /* AppDelegate.m */; };
+		F5F615871D45B7C300348CBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F615861D45B7C300348CBC /* ViewController.m */; };
+		F5F6158A1D45B7C300348CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F615881D45B7C300348CBC /* Main.storyboard */; };
+		F5F6158C1D45B7C300348CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F6158B1D45B7C300348CBC /* Assets.xcassets */; };
+		F5F6158F1D45B7C300348CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F6158D1D45B7C300348CBC /* LaunchScreen.storyboard */; };
+		F5F6159A1D45B7C300348CBC /* GetThePicFromCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F615991D45B7C300348CBC /* GetThePicFromCameraTests.m */; };
+		F5F615A51D45B7C300348CBC /* GetThePicFromCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F615A41D45B7C300348CBC /* GetThePicFromCameraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5F615961D45B7C300348CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F615741D45B7C300348CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F6157B1D45B7C300348CBC;
+			remoteInfo = GetThePicFromCamera;
+		};
+		F5F615A11D45B7C300348CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F615741D45B7C300348CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F6157B1D45B7C300348CBC;
+			remoteInfo = GetThePicFromCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5F6157C1D45B7C300348CBC /* GetThePicFromCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetThePicFromCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F615801D45B7C300348CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5F615821D45B7C300348CBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5F615831D45B7C300348CBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5F615851D45B7C300348CBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5F615861D45B7C300348CBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5F615891D45B7C300348CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5F6158B1D45B7C300348CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5F6158E1D45B7C300348CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5F615901D45B7C300348CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F615951D45B7C300348CBC /* GetThePicFromCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetThePicFromCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F615991D45B7C300348CBC /* GetThePicFromCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetThePicFromCameraTests.m; sourceTree = "<group>"; };
+		F5F6159B1D45B7C300348CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F615A01D45B7C300348CBC /* GetThePicFromCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetThePicFromCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F615A41D45B7C300348CBC /* GetThePicFromCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetThePicFromCameraUITests.m; sourceTree = "<group>"; };
+		F5F615A61D45B7C300348CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F615791D45B7C300348CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F615921D45B7C300348CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6159D1D45B7C300348CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5F615731D45B7C300348CBC = {
+			isa = PBXGroup;
+			children = (
+				F5F6157E1D45B7C300348CBC /* GetThePicFromCamera */,
+				F5F615981D45B7C300348CBC /* GetThePicFromCameraTests */,
+				F5F615A31D45B7C300348CBC /* GetThePicFromCameraUITests */,
+				F5F6157D1D45B7C300348CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F6157D1D45B7C300348CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F6157C1D45B7C300348CBC /* GetThePicFromCamera.app */,
+				F5F615951D45B7C300348CBC /* GetThePicFromCameraTests.xctest */,
+				F5F615A01D45B7C300348CBC /* GetThePicFromCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F6157E1D45B7C300348CBC /* GetThePicFromCamera */ = {
+			isa = PBXGroup;
+			children = (
+				F5F615821D45B7C300348CBC /* AppDelegate.h */,
+				F5F615831D45B7C300348CBC /* AppDelegate.m */,
+				F5F615851D45B7C300348CBC /* ViewController.h */,
+				F5F615861D45B7C300348CBC /* ViewController.m */,
+				F5F615881D45B7C300348CBC /* Main.storyboard */,
+				F5F6158B1D45B7C300348CBC /* Assets.xcassets */,
+				F5F6158D1D45B7C300348CBC /* LaunchScreen.storyboard */,
+				F5F615901D45B7C300348CBC /* Info.plist */,
+				F5F6157F1D45B7C300348CBC /* Supporting Files */,
+			);
+			path = GetThePicFromCamera;
+			sourceTree = "<group>";
+		};
+		F5F6157F1D45B7C300348CBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5F615801D45B7C300348CBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5F615981D45B7C300348CBC /* GetThePicFromCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F615991D45B7C300348CBC /* GetThePicFromCameraTests.m */,
+				F5F6159B1D45B7C300348CBC /* Info.plist */,
+			);
+			path = GetThePicFromCameraTests;
+			sourceTree = "<group>";
+		};
+		F5F615A31D45B7C300348CBC /* GetThePicFromCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F615A41D45B7C300348CBC /* GetThePicFromCameraUITests.m */,
+				F5F615A61D45B7C300348CBC /* Info.plist */,
+			);
+			path = GetThePicFromCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F6157B1D45B7C300348CBC /* GetThePicFromCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F615A91D45B7C300348CBC /* Build configuration list for PBXNativeTarget "GetThePicFromCamera" */;
+			buildPhases = (
+				F5F615781D45B7C300348CBC /* Sources */,
+				F5F615791D45B7C300348CBC /* Frameworks */,
+				F5F6157A1D45B7C300348CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetThePicFromCamera;
+			productName = GetThePicFromCamera;
+			productReference = F5F6157C1D45B7C300348CBC /* GetThePicFromCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F615941D45B7C300348CBC /* GetThePicFromCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F615AC1D45B7C300348CBC /* Build configuration list for PBXNativeTarget "GetThePicFromCameraTests" */;
+			buildPhases = (
+				F5F615911D45B7C300348CBC /* Sources */,
+				F5F615921D45B7C300348CBC /* Frameworks */,
+				F5F615931D45B7C300348CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F615971D45B7C300348CBC /* PBXTargetDependency */,
+			);
+			name = GetThePicFromCameraTests;
+			productName = GetThePicFromCameraTests;
+			productReference = F5F615951D45B7C300348CBC /* GetThePicFromCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5F6159F1D45B7C300348CBC /* GetThePicFromCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F615AF1D45B7C300348CBC /* Build configuration list for PBXNativeTarget "GetThePicFromCameraUITests" */;
+			buildPhases = (
+				F5F6159C1D45B7C300348CBC /* Sources */,
+				F5F6159D1D45B7C300348CBC /* Frameworks */,
+				F5F6159E1D45B7C300348CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F615A21D45B7C300348CBC /* PBXTargetDependency */,
+			);
+			name = GetThePicFromCameraUITests;
+			productName = GetThePicFromCameraUITests;
+			productReference = F5F615A01D45B7C300348CBC /* GetThePicFromCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F615741D45B7C300348CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "区振轩";
+				TargetAttributes = {
+					F5F6157B1D45B7C300348CBC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GTMKG6EH2C;
+						DevelopmentTeamName = "振轩 区 (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					F5F615941D45B7C300348CBC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GTMKG6EH2C;
+						DevelopmentTeamName = "振轩 区 (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5F6157B1D45B7C300348CBC;
+					};
+					F5F6159F1D45B7C300348CBC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GTMKG6EH2C;
+						DevelopmentTeamName = "振轩 区 (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5F6157B1D45B7C300348CBC;
+					};
+				};
+			};
+			buildConfigurationList = F5F615771D45B7C300348CBC /* Build configuration list for PBXProject "GetThePicFromCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F615731D45B7C300348CBC;
+			productRefGroup = F5F6157D1D45B7C300348CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F6157B1D45B7C300348CBC /* GetThePicFromCamera */,
+				F5F615941D45B7C300348CBC /* GetThePicFromCameraTests */,
+				F5F6159F1D45B7C300348CBC /* GetThePicFromCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F6157A1D45B7C300348CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F6158F1D45B7C300348CBC /* LaunchScreen.storyboard in Resources */,
+				F5F6158C1D45B7C300348CBC /* Assets.xcassets in Resources */,
+				F5F6158A1D45B7C300348CBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F615931D45B7C300348CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6159E1D45B7C300348CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F615781D45B7C300348CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F615871D45B7C300348CBC /* ViewController.m in Sources */,
+				F5F615841D45B7C300348CBC /* AppDelegate.m in Sources */,
+				F5F615811D45B7C300348CBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F615911D45B7C300348CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F6159A1D45B7C300348CBC /* GetThePicFromCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6159C1D45B7C300348CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F615A51D45B7C300348CBC /* GetThePicFromCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5F615971D45B7C300348CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F6157B1D45B7C300348CBC /* GetThePicFromCamera */;
+			targetProxy = F5F615961D45B7C300348CBC /* PBXContainerItemProxy */;
+		};
+		F5F615A21D45B7C300348CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F6157B1D45B7C300348CBC /* GetThePicFromCamera */;
+			targetProxy = F5F615A11D45B7C300348CBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5F615881D45B7C300348CBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F615891D45B7C300348CBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5F6158D1D45B7C300348CBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F6158E1D45B7C300348CBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F615A71D45B7C300348CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F615A81D45B7C300348CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F615AA1D45B7C300348CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetThePicFromCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.GetThePicFromCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5F615AB1D45B7C300348CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetThePicFromCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.GetThePicFromCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5F615AD1D45B7C300348CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetThePicFromCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.GetThePicFromCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetThePicFromCamera.app/GetThePicFromCamera";
+			};
+			name = Debug;
+		};
+		F5F615AE1D45B7C300348CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetThePicFromCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.GetThePicFromCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetThePicFromCamera.app/GetThePicFromCamera";
+			};
+			name = Release;
+		};
+		F5F615B01D45B7C300348CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetThePicFromCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.GetThePicFromCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetThePicFromCamera;
+			};
+			name = Debug;
+		};
+		F5F615B11D45B7C300348CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetThePicFromCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.GetThePicFromCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetThePicFromCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F615771D45B7C300348CBC /* Build configuration list for PBXProject "GetThePicFromCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F615A71D45B7C300348CBC /* Debug */,
+				F5F615A81D45B7C300348CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F615A91D45B7C300348CBC /* Build configuration list for PBXNativeTarget "GetThePicFromCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F615AA1D45B7C300348CBC /* Debug */,
+				F5F615AB1D45B7C300348CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5F615AC1D45B7C300348CBC /* Build configuration list for PBXNativeTarget "GetThePicFromCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F615AD1D45B7C300348CBC /* Debug */,
+				F5F615AE1D45B7C300348CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5F615AF1D45B7C300348CBC /* Build configuration list for PBXNativeTarget "GetThePicFromCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F615B01D45B7C300348CBC /* Debug */,
+				F5F615B11D45B7C300348CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5F615741D45B7C300348CBC /* Project object */;
+}
