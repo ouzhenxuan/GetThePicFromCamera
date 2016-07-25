@@ -15,6 +15,7 @@
 		F5F6158F1D45B7C300348CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F6158D1D45B7C300348CBC /* LaunchScreen.storyboard */; };
 		F5F6159A1D45B7C300348CBC /* GetThePicFromCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F615991D45B7C300348CBC /* GetThePicFromCameraTests.m */; };
 		F5F615A51D45B7C300348CBC /* GetThePicFromCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F615A41D45B7C300348CBC /* GetThePicFromCameraUITests.m */; };
+		F5F615B41D45BBEF00348CBC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F615B31D45BBEF00348CBC /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F5F615A01D45B7C300348CBC /* GetThePicFromCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetThePicFromCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F615A41D45B7C300348CBC /* GetThePicFromCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetThePicFromCameraUITests.m; sourceTree = "<group>"; };
 		F5F615A61D45B7C300348CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F615B31D45BBEF00348CBC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F615B41D45BBEF00348CBC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				F5F615981D45B7C300348CBC /* GetThePicFromCameraTests */,
 				F5F615A31D45B7C300348CBC /* GetThePicFromCameraUITests */,
 				F5F6157D1D45B7C300348CBC /* Products */,
+				F5F615B21D45BBEF00348CBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +142,14 @@
 				F5F615A61D45B7C300348CBC /* Info.plist */,
 			);
 			path = GetThePicFromCameraUITests;
+			sourceTree = "<group>";
+		};
+		F5F615B21D45BBEF00348CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5F615B31D45BBEF00348CBC /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
